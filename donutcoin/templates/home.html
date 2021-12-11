@@ -33,7 +33,7 @@
 	}
 	.fea{
 		text-align: center;
-		margin-top: 30vh;
+		margin-top: 10vh;
 		font-size: 60px;	
 		font-family: 'Lato', sans-serif;
 	}						
@@ -54,12 +54,21 @@
 		margin-top: 10vh;
 		font-size: 30px;
 		font-family:'Inconsolata', monospace;
-	}			
+	}
+
+	.imgdo{
+		width: 40vh;
+		z-index: -1;
+		margin-top: 10vh;
+		margin-left: 25vw;
+	}
+				
 </style>
 <div class="head">Donut-Coin</div>
 <div class="shead">Future of crypto is here.</div>
  <div class="btns" ><a href="{{ url_for('login') }}"><button class="gs">  Get-Started</button></a></div>
 
+ <img src="{{ url_for('static', filename = 'img/donut.png')}}" alt="" class="imgdo"> 
  <div class="fea">Key Features</div>
  <div class="f1">Donut-Coin uses SHA-256 hash algorithm , which is also used by Bitcoin</div>
  <div class="f2">Donut-Coin is decentralised , so there is no central authority to hold all coins , so there is no risk of fraud</div>
