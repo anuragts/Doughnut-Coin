@@ -1,6 +1,68 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class="btn-c">Start</div>
-	<h1>Home Page</h1>
+<style>
+	.head{
+		text-align: center;
+		margin-top: 4vh;
+		font-size: 120px;
+		font-family: 'Lato', sans-serif;
+		color: rgba(104, 10, 133, 0.747);
+	}
+	.shead{
+		text-align: center;
+		/* margin-top: 5vh; */
+		font-size: 35px;
+		font-family:'Inconsolata', monospace;
+		color: rgba(0, 0, 0, 0.747);
+	}
+	.btns{text-align: center;
+	}
+	.gs{
+		padding: 10px 20px;
+		text-align: center;
+		margin-top: 6vh;
+		font-size: 28px;
+		font-family:'Inconsolata', monospace;
+		color: rgba(0, 0, 0, 0.747);
+		background-color: rgb(253, 0, 219);
+		border: none;
+	}
+	.gs:hover{
+		background-color: rgba(118, 11, 139, 0.856);
+		color: rgb(253, 0, 219);
+	}
+	.fea{
+		text-align: center;
+		margin-top: 30vh;
+		font-size: 60px;	
+		font-family: 'Lato', sans-serif;
+	}						
+	.f1{
+		text-align: center;
+		margin-top: 10vh;
+		font-size: 30px;
+		font-family:'Inconsolata', monospace;
+	}					
+	.f2{
+		text-align: center;
+		margin-top: 10vh;
+		font-size: 30px;
+		font-family:'Inconsolata', monospace;
+	}			
+	.f3{
+		text-align: center;
+		margin-top: 10vh;
+		font-size: 30px;
+		font-family:'Inconsolata', monospace;
+	}			
+</style>
+<div class="head">Donut-Coin</div>
+<div class="shead">Future of crypto is here.</div>
+ <div class="btns" ><a href="{{ url_for('login') }}"><button class="gs">  Get-Started</button></a></div>
+
+ <div class="fea">Key Features</div>
+ <div class="f1">Donut-Coin uses SHA-256 hash algorithm , which is also used by Bitcoin</div>
+ <div class="f2">Donut-Coin is decentralised , so there is no central authority to hold all coins , so there is no risk of fraud</div>
+ <div class="f3">Value cannot be manipulated easily by pump and dump.</div>
 
 {% endblock content %}

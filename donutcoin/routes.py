@@ -17,7 +17,7 @@ def index():
 @app.route("/home")
 def home():
     blockchainObj.resolveConflicts();
-    return render_template('blockchain.html', title = "Blockchain", blockchain = blockchainObj);
+    return render_template('home.html', title = "Blockchain", blockchain = blockchainObj);
 
 
 @app.route("/blockchain")
