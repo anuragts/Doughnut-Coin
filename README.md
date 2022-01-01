@@ -3,6 +3,7 @@
 
 Donut-coin is the crypto currency of the future , it is decentralized and fraud free.
 
+
 ## Deployment
 
 To deploy this project run
@@ -25,5 +26,8 @@ To run this project, you will need to add the following environment variables to
 ## Authors
 
 - [@Anuragsharma](https://github.com/Anurag30112003/)
+<br>
+
+peace!!!
 
   
